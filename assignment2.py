@@ -10,9 +10,9 @@ class Assignment2:
     # Tells the age
     def tellAge(self, currentYear):
         age = currentYear - self.year
-        print("Your age is ", age)
+        print("Your age is", age)
     #list the 10th aniversaries
-    def listAniversaries(self):
+    def listAnniversaries(self):
         age = 2022 - self.year
         
         a = [ i for i in range(10, age, 10)]
